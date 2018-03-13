@@ -30,6 +30,7 @@
 
 * Une page pour permetre à l'administrateur d'ajouter des utilisateurs
 * Transformer l'algorithme de prédiction CNN pour prédire des équipes et non une fillère
+* Extraire les pop-ups d'inscription et de connexion du component header
 
 ## Installation du Back-end
 
