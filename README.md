@@ -32,6 +32,7 @@
 * Transformer l'algorithme de prédiction CNN pour prédire des équipes et non une fillère
 * Extraire les pop-ups d'inscription et de connexion du component header
 * Validation du compte par eamil
+* Page mot de passe oublié
 
 ## Installation du Back-end
 
