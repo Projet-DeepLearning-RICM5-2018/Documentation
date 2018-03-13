@@ -26,11 +26,12 @@
 * Mise en place de l'algorithme de deeplearning CNN pour générer le model de prediction
 * Possibilité d'évaluer une offre en fonction d'un model de prédiction 
 
-## Fonctionnalité interesante à mettre en place
+## Fonctionnalité intéressante à mettre en place
 
 * Une page pour permetre à l'administrateur d'ajouter des utilisateurs
 * Transformer l'algorithme de prédiction CNN pour prédire des équipes et non une fillère
 * Extraire les pop-ups d'inscription et de connexion du component header
+* Validation du compte par eamil
 
 ## Installation du Back-end
 
