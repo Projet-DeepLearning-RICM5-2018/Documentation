@@ -1,17 +1,17 @@
-# Généralité du projet
+# Généralités du projet
 
 ## Fonctionnalités implémentées
 
 ### Front
 
-* Fonctionnalité utilisateur non connecté
+* Fonctionnalités utilisateur non connecté
     * Obtenir une prédiction en entrant le texte d'une offre
 
-* Fonctionnalité utilisateur connecté
+* Fonctionnalités utilisateur connecté
     * Consulter ses anciennes prédictions réalisées
 
-* Fonctionnalité administrateur
-    * Consulter la liste des formations présente dans la base de données, possibilité de les modifier et de les supprimer
+* Fonctionnalités administrateur
+    * Consulter la liste des formations présentes dans la base de données, possibilité de les modifier et de les supprimer
     * Consulter la liste des offres présentes dans la base de données, possibilité de les modifier et de les supprimer
     * Possibilité de trier les offres 
 
@@ -23,15 +23,15 @@
 
 ### Deeplearning
 * Mise en place de l'algorithme de deeplearning de word2Vector
-* Mise en place de l'algorithme de deeplearning CNN pour générer le model de prediction
-* Possibilité d'évaluer une offre en fonction d'un model de prédiction 
+* Mise en place de l'algorithme de deeplearning CNN pour générer le modèle de prediction
+* Possibilité d'évaluer une offre en fonction d'un modèle de prédiction 
 
-## Fonctionnalité intéressante à mettre en place
+## Fonctionnalités intéressantes à mettre en place
 
 * Une page pour permetre à l'administrateur d'ajouter des utilisateurs
-* Transformer l'algorithme de prédiction CNN pour prédire des équipes et non une fillère
+* Transformer l'algorithme de prédiction CNN pour prédire des équipes et non une filère
 * Extraire les pop-ups d'inscription et de connexion du component header
-* Validation du compte par eamil
+* Validation du compte par email
 * Page mot de passe oublié
 
 ## Installation du Back-end
@@ -40,13 +40,6 @@
 * Pas besoin de créer les tables, elles seront crées automatiquement en lançant l'application
 * Installer Python 3 et pip
 * Installer les packages nécessaires : pip install -r requirements.txt
-
-### Lancement
-
-* Pour lancer le serveur : python runserver.py
-* Paramètres à ajouter :
-  * -i, --init : initialiser le modèle et la base de données
-  * -r, --reinit : réinitialiser le modèle à partir de la base de données
 
 ### Ajout des données
 
@@ -100,7 +93,10 @@
 ```
 
 * Lancer la back-end
-/*TODO*/
+   * Pour lancer le serveur : python runserver.py
+   * Paramètres à ajouter :
+     * -i, --init : initialiser le modèle et la base de données
+     * -r, --reinit : réinitialiser le modèle à partir de la base de données
 
 ## Déploiement
 
@@ -111,19 +107,19 @@
 ```
      ng build
 ```
-3. l'ensemble du site web se situe dans le dossier dist généré par la commande précédente. Il vous suffit donc de copier le contenu du dossier dist dans le dossier publique de votre serveur.
+3. l'ensemble du site web se situe dans le dossier dist généré par la commande précédente. Il vous suffit donc de copier le contenu du dossier dist dans le dossier public de votre serveur.
 
 ### Back
 
-1. Changer les identifiant dans le dossier SmartRecruiting_BackEnd/data/database.py
-2. (Optionnel) Changer le port de lancement du serveur(runserver.py)
-3. (Optionnel) Si un model a déjà été génré copier le model dans le dossier data
+1. Changer les identifiants dans le dossier SmartRecruiting_BackEnd/data/database.py
+2. (Optionnel) Changer le port de lancement du serveur (runserver.py)
+3. (Optionnel) Si un modèle a déjà été généré copier le modèle dans le dossier data
 4. Lancer le serveur
 
 
 :::danger
-Wifi campus n'autorise que le port 80 et 8080. Ainis si le back tourne sur le port 5555 il est inacessible depuis ce réseaux et l'application ne fonctionne pas.
+Wifi campus n'autorise que le port 80 et 8080. Ainsi si le back tourne sur le port 5555 il est inacessible depuis ce réseau et l'application ne fonctionne pas.
 
-Solution 1 : lancer la front et le back sur deux machines différentes
+Solution 1 : lancer le front et le back sur deux machines différentes
 
 :::
