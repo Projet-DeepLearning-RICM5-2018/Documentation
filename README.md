@@ -35,19 +35,20 @@
 * Page mot de passe oublié
 
 ## Installation du Back-end
+
 * Installer mysql-server et le lancer (pour le choix du nom d'utilisateur et du mot de passe il faut que ça corresponde avec le fichier SmartRecruiting_BackEnd/data/database.py
 * Pas besoin de créer les tables, elles seront crées automatiquement en lançant l'application
 * Installer Python 3 et pip
 * Installer les packages nécessaires : pip install -r requirements.txt
 
-## Lancement
+### Lancement
 
 * Pour lancer le serveur : python runserver.py
 * Paramètres à ajouter :
   * -i, --init : initialiser le modèle et la base de données
   * -r, --reinit : réinitialiser le modèle à partir de la base de données
 
-## Déploiement
+### Déploiement
 
 1. Changer les identifiant dans le dossier SmartRecruiting_BackEnd/data/database.py
 2. (Optionnel) Changer le port de lancement du serveur(runserver.py)
@@ -62,7 +63,7 @@ Solution 1 : lancer la front et le back sur deux machines différentes
 
 :::
 
-## Ajout des données
+### Ajout des données
 
 * Pour l'initialisation il faut ajouter 3 fichiers dans le dossier data :
   * offers.csv
