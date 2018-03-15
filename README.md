@@ -33,6 +33,8 @@
 * Extraire les pop-ups d'inscription et de connexion du component header
 * Validation du compte par email
 * Page mot de passe oublié
+* Afficher un pourcentage de fiabilité pour une prédiction
+* Automatiser la réinitialisation du modèle régulièrement sur le serveur
 
 ## Installation du Back-end
 
